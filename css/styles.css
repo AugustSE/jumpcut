@@ -1,0 +1,120 @@
+/* General styles */
+body { background: black; color: white; }
+hr { border-bottom: 1px solid rgba(255,255,255,0.2); width: 100%; }
+.teal { color: #50f8e1; }
+.grey { color: #dcdcdc; }
+.container .row { padding-top: 4em; padding-bottom: 5em; }
+
+/* Font Sizes */
+.sub-title-sm { font-size: 20px; }
+.sub-title-md { font-size: 25px; }
+
+/* Widget styles */
+.student-box { padding: 4em; border: 1px solid rgba(255,255,255,0.2); text-align: center; }
+.student-box p:last-child { text-align: left; }
+
+/* Header */
+header .container .row { padding-top: 3em; }
+
+/* Banner */
+.banner .col-md-7 img { width: 100%; }
+
+/* Results */
+.results .container .row div:first-child { text-align: center; padding-bottom: 4em; }
+.results .container .row div:last-child { text-align: center; padding-top: 2em; }
+.results .container .row div:last-child button { background: transparent; border: 1px solid #50f8e1; color: white; padding: 0.5em 1em 0.5em 1em; font-size: 20px; cursor: pointer; }
+.results .container .row div:last-child button i { font-size: 30px; vertical-align: -0.15em; }
+.results .container .row div:last-child small { font-size: 15px; }
+.results .col-md-4 { margin-bottom: 1em; }
+
+/* Footer */
+footer { text-align: center; color: #dcdcdc; }
+footer ul { list-style-type: none; padding-left: 0; }
+footer ul li { display: inline-block; text-align: center; border-right: 1px solid #dcdcdc; padding-left: 1em; padding-right: 1em; }
+footer ul li:last-child { border: 0; }
+footer ul li a { color: #50f8e1; }
+footer ul li a:hover { color: white; text-decoration: none; }
+
+/* Email Popup */
+#email-popup { color: black; }
+#email-popup .modal-content { text-align: center; }
+#email-popup input,
+#email-popup button { width: 100%; }
+#email-popup form .icons { position: absolute; font-size: 25px; right: -0.5em; right: 1.5em; margin-top: 0.6em; }
+#email-popup input { border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border: 2px solid #c1c1c1; padding: 0.5em 1em 0.5em 1em; text-align: center; background: #f1f1f1; font-size: 20px; }
+#email-popup input:focus { outline: 0; border: 2px solid #42b0e2 !important; }
+#email-popup button { background: #e43b2c; color: white; border-top: 0; border-left: 0; border-right: 0; border-bottom: 3px solid #b62f23; padding: 0.5em 1em 0.5em 1em; font-size: 25px; font-weight: bold; cursor: pointer; }
+#email-popup button:hover { background: #b62f23; }
+#email-popup .close { background: white; border: 2px solid white; -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); border-radius: 20px; -moz-border-radius: 20px; -webkit-border-radius: 20px; position: absolute; top: -0.7em; right: -0.7em; opacity: 1.0; }
+#email-popup .close a { color: black !important; font-size: 30px; }
+#email-popup form p .err-msg { display: none; }
+
+/* Bootstrap Overrides */
+.modal-header,
+.modal-footer { display: none; }
+
+/* media queries */
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+  
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  
+  
+}
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  .results .col-md-4,
+  .banner .col-md-5,
+  .banner .col-md-7 { width: 100% !important; flex: 100% !important; max-width: 100% !important; }
+  .banner .col-md-5 { text-align: center; }
+  .student-box p:last-child { text-align: center !important; }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  .student-box p:last-child { text-align: center !important; }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+  
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+  
+}
+/* media queries */
